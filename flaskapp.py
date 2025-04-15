@@ -50,7 +50,7 @@ def loginn():
     if request.method == "POST":
         email = request.form['email']
         password = request.form['password']
-        if (email=='hamzaaamir6@gmail.com' and password=='admin'):
+        if (email=='test-account@gmail.com' and password=='alpha@Beta'):
             session['email'] = email
             return render_template('detect.html', email=email)
         else:
